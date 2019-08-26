@@ -16,12 +16,14 @@ function renderTip(template, context) {
     });
 }
 
+
+
 String.prototype.renderTip = function (context) {
     return renderTip(this, context);
 };
 
 var re = /x/;
-console.log(re);
+showMessage('哈哈，你打开了控制台，是想要看看我的秘密吗？', 5000);
 re.toString = function() {
     showMessage('哈哈，你打开了控制台，是想要看看我的秘密吗？', 5000);
     return '';
@@ -95,7 +97,7 @@ initTips();
                 text = '嗨~ 快来逗我玩吧！';
             }
         }else {
-            text =  text = '欢迎来到<span style="color:#0099cc;">「 ' + document.title.split(' - ')[0] + ' 」</span>';
+            text =  text = '这里是<span style="color:#0099cc;">「 ' + document.title.split(' - ')[0] + ' 」</span>,欢迎您！';
         }
     }
     showMessage(text, 12000);
@@ -111,7 +113,7 @@ function showHitokoto(){
 
 function showMessage(text, timeout){
     if(Array.isArray(text)) text = text[Math.floor(Math.random() * text.length + 1)-1];
-    //console.log('showMessage', text);
+    console.log('showMessage', text);
     $('.message').stop();
     $('.message').html(text).fadeTo(200, 1);
     if (timeout === null) timeout = 5000;
