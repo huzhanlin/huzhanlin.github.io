@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[37],{569:function(n,t,e){"use strict";e.r(t);var i={data:function(){return{iconList:["el-icon-platform-eleme","el-icon-eleme"]}}},c=e(4),l=Object(c.a)(i,(function(){var n=this.$createElement;return(this._self._c||n)("al-icon",{attrs:{iconList:this.iconList}})}),[],!1,null,null,null);t.default=l.exports}}]);

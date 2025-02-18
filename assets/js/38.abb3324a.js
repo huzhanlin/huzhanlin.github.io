@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[38],{570:function(n,o,t){"use strict";t.r(o);var e={methods:{iconFont:function(n){console.log(n)}}},c=t(4),l=Object(c.a)(e,(function(){var n=this.$createElement;return(this._self._c||n)("al-icon",{on:{selectIconData:this.iconFont}})}),[],!1,null,null,null);o.default=l.exports}}]);
